@@ -1,0 +1,42 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+body {
+    font-family: "Inconsolata"; /* Because I'm sick of the unevenness. */
+    color: white;
+    background: black;
+    margin: 0;
+}
+
+#buttons {
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text-wrapper {
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    color: #BBBBBB;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: inline-block;
+}
+
+.text strong {
+    font-size: 1.3em;
+    color: #DD1321;
+}
+
+#one {
+    float: left;
+}
+
+#two {
+    float: right;
+}

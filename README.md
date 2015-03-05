@@ -1,2 +1,2 @@
-# Skyward-demo-js
+# Skyward-demo-typescript
 A code demo for Skyward

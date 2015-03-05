@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sneaky Snake</title>
+
+    <!-- snakey references -->
+    <link href="css/index.css" rel="stylesheet" />
+    <script src="lib/jquery.js"></script>
+    <script src="js/ArgyleEngine.js"></script>
+    <script src="js/NPC.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/Teleporter.js"></script>
+    <script src="js/game.js"></script>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+
+    <!-- Buttons for starting a new game and changing controls -->
+    <div  id="buttons">
+        <button class="new">New Game</button>
+        <button class="control">Toggle Controls</button>
+    </div>
+    <div id="text-wrapper">
+        <div class="text" id="one">
+            <br /><strong>Sneaky Snake:</strong><br />
+            A procedurally generated game first written for the CodeDay:Portland in February of 2015 at Prolifiq using the custom-made Argyle Engine.  The game is by no means dead and I still work on it in my spare time!
+            <br /><br /><strong>Objective:</strong><br />
+            Sneak around the little guys to make your way to the teleporter to bring you to the next level.  Walking over the little ones increases your score and speed but also makes you longer.  Plan carefully!
+        </div>
+        <div class="text" id="two">
+            <br /><strong>Controls:</strong><br />
+            w, s, a, d to move around, if the controls are confusing try clicking the Toggle Controls button to switch them.
+            <br />m to mute
+            <br /><br /><strong>Team:</strong><br />
+            Graham Barber: Assets, Everything else not Programming <br />
+            Damian Kulp: Programmer
+        </div>
+    </div>
+    
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
