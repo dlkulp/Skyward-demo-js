@@ -44,7 +44,10 @@ var OHDHGame = (function () {
                     that.assetmanager.audio.main.play();
                 else
                     that.assetmanager.audio.main.pause();
-            }
+            } else if (e.which == 82)
+                that.restartGame();
+            else if (e.which == 84)
+                that.toggleControls();
         });
     }
     OHDHGame.prototype.setupFloor = function () {
@@ -114,6 +117,13 @@ var OHDHGame = (function () {
         }
     };
 
+    OHDHGame.prototype.toggleControls = function () {
+        if (this.player.controls[0] == "s")
+            this.player.controls = ["a", "w", "d", "s"];
+        else
+            this.player.controls = ["s", "a", "w", "d"];
+    };
+
     OHDHGame.prototype.restartGame = function () {
         // Stop the tick function from ticking
         clearInterval(this.tickID);
@@ -144,7 +154,7 @@ var OHDHGame = (function () {
     OHDHGame.prototype.viewWorld = function (w) {
         var wall = "id ='wall";
         var door = "id ='door";
-        $("p").remove();
+
         for (var y = 0; y <= this.floorSize; y++) {
             var outP = "<p>";
             for (var x = 0; x <= this.floorSize; x++) {
@@ -186,7 +196,7 @@ var OHDHGame = (function () {
         for (this.tempi = 0; this.tempi < this.NPCs.length; this.tempi++) {
             this.NPCs[this.tempi].tick(this.input, this.player, this.collisionMap[this.currentFloor]);
             if (this.NPCs[this.tempi].seen) {
-                if (cmpVector2(this.player.pos, this.player.sDestination)) {
+                if (cmpVector2(this.player.pos, this.player.sDestination) && !cmpVector2(this.player.gDestination, this.NPCs[this.tempi].gPos)) {
                     this.player.health -= 1;
                 }
                 break;
@@ -248,10 +258,7 @@ $(function game() {
     });
     $(".control").click(function () {
         // Change control scheme from w moving to upper right to w moving to upper left
-        if (game.player.controls[0] == "s")
-            game.player.controls = ["a", "w", "d", "s"];
-        else
-            game.player.controls = ["s", "a", "w", "d"];
+        game.toggleControls();
     });
 
     // Start game when all assets are loaded

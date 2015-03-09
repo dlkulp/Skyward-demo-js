@@ -91,6 +91,13 @@ class OHDHGame{
         }
     }
 
+    public toggleControls() {
+        if (this.player.controls[0] == "s")
+            this.player.controls = ["a", "w", "d", "s"];
+        else
+            this.player.controls = ["s", "a", "w", "d"];
+    }
+
     public restartGame() {
         // Stop the tick function from ticking
         clearInterval(this.tickID);
@@ -120,7 +127,7 @@ class OHDHGame{
     public viewWorld(w: Building): void {
         var wall: string = "id ='wall";
         var door: string = "id ='door"
-        $("p").remove();
+        //$("p").remove();
         for (var y: number = 0; y <= this.floorSize; y++) {
             var outP: string = "<p>";
             for (var x: number = 0; x <= this.floorSize; x++) {
@@ -172,7 +179,7 @@ class OHDHGame{
         for (this.tempi = 0; this.tempi < this.NPCs.length; this.tempi++) {
             this.NPCs[this.tempi].tick(this.input, this.player, this.collisionMap[this.currentFloor]);            
             if (this.NPCs[this.tempi].seen) {
-                if (cmpVector2(this.player.pos, this.player.sDestination)) {
+                if (cmpVector2(this.player.pos, this.player.sDestination) && !cmpVector2(this.player.gDestination, this.NPCs[this.tempi].gPos)) {
                     this.player.health -= 1;
                 }
                 break;
@@ -262,6 +269,10 @@ class OHDHGame{
                     that.assetmanager.audio.main.play();
                 else that.assetmanager.audio.main.pause();
             }
+            else if (e.which == 82)
+                that.restartGame();
+            else if (e.which == 84)
+                that.toggleControls();
         });
     }
 }
@@ -274,10 +285,7 @@ $(function game(): void {
     });
     $(".control").click(function () {
         // Change control scheme from w moving to upper right to w moving to upper left
-        if (game.player.controls[0] == "s")
-            game.player.controls = ["a", "w", "d", "s"];
-        else
-            game.player.controls = ["s", "a", "w", "d"];
+        game.toggleControls();
     });
 
 

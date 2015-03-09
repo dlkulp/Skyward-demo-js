@@ -39,6 +39,15 @@ var OHDHGame = (function () {
                 that.input.keyPresses.push("s");
             else if (e.which == 68)
                 that.input.keyPresses.push("d");
+            else if (e.which == 77) {
+                if (that.assetmanager.audio.main.paused)
+                    that.assetmanager.audio.main.play();
+                else
+                    that.assetmanager.audio.main.pause();
+            } else if (e.which == 82)
+                that.restartGame();
+            else if (e.which == 84)
+                that.toggleControls();
         });
     }
     OHDHGame.prototype.setupFloor = function () {
@@ -97,7 +106,7 @@ var OHDHGame = (function () {
             tempx = Math.floor(Math.random() * this.floorSize);
             tempy = Math.floor(Math.random() * this.floorSize);
             tempVect = new Vector2(tempx, tempy);
-            while (floor.grid[tempx][tempy].type == 1 /* WALL */ || collide(tempVect, this.NPCs) || cmpVector2(gridToScreen(tempVect), this.currTeleporter.pos) || (tempVect.x < 5 && tempVect.y == 1) || (tempVect.x == 1 && tempVect.y < 5)) {
+            while (floor.grid[tempx][tempy].type == 1 /* WALL */ || collide(tempVect, this.NPCs) || cmpVector2(gridToScreen(tempVect), this.currTeleporter.pos) || (tempVect.x < 6 && tempVect.y == 1) || (tempVect.x == 1 && tempVect.y < 6)) {
                 tempx = Math.floor(Math.random() * this.floorSize);
                 tempy = Math.floor(Math.random() * this.floorSize);
                 tempVect = new Vector2(tempx, tempy);
@@ -106,6 +115,13 @@ var OHDHGame = (function () {
             this.tempi = gridToScreen(tempx, tempy);
             this.NPCs.push(new NPC(this.tempi.x, this.tempi.y, tempx, tempy, 5));
         }
+    };
+
+    OHDHGame.prototype.toggleControls = function () {
+        if (this.player.controls[0] == "s")
+            this.player.controls = ["a", "w", "d", "s"];
+        else
+            this.player.controls = ["s", "a", "w", "d"];
     };
 
     OHDHGame.prototype.restartGame = function () {
@@ -207,11 +223,11 @@ var OHDHGame = (function () {
             clearInterval(this.tickID);
             var that = this;
             setTimeout(function () {
-                that.renderer.ctx.fillStyle = "red";
-                that.renderer.ctx.font = "10.5em Inconsolata";
-                that.renderer.ctx.fillText("You've been seen!", window.innerWidth / 12, window.innerHeight / 2);
-                that.renderer.ctx.font = "5.5em Incosolata";
-                that.renderer.ctx.fillText("Score: " + that.player.following.length, window.innerWidth / 2.5, window.innerHeight / 1.5);
+                that.renderer.ctx.fillStyle = "#DD1321";
+                that.renderer.ctx.font = "6.5em Inconsolata";
+                that.renderer.ctx.fillText("You've been seen!", that.renderer.canvas.width / 8, that.renderer.canvas.height / 2);
+                that.renderer.ctx.font = "3em Incosolata";
+                that.renderer.ctx.fillText("Score: " + that.player.following.length, that.renderer.canvas.width / 2.4, that.renderer.canvas.height / 1.5);
             }, 400);
         }
     };
@@ -242,10 +258,7 @@ $(function game() {
     });
     $(".control").click(function () {
         // Change control scheme from w moving to upper right to w moving to upper left
-        if (game.player.controls[0] == "s")
-            game.player.controls = ["a", "w", "d", "s"];
-        else
-            game.player.controls = ["s", "a", "w", "d"];
+        game.toggleControls();
     });
 
     // Start game when all assets are loaded

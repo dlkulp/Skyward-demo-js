@@ -6,7 +6,7 @@ class Player extends Obj {
     public tempDestination: Vector2;
     public speed: number = 2.5;
     public bCanLerp: boolean;
-    public previousLoc: any;
+    public previousLoc: Array<Vector2>;
     public following: Array<NPC>;
     private lastKey: string;
     public health: number = 1;
@@ -35,7 +35,23 @@ class Player extends Obj {
                 this.pos = lerp(this.pos, this.sDestination, this.speed);
             }
             else {
-                // If they're not moving, change the anim to the correct idle anim
+                // If the player isn't moving, change the anim to the correct idle anim
+                if (input.keyPresses.length == 0) {
+                    this.tempDestination.x = this.gDestination.x;
+                    this.tempDestination.y = this.gDestination.y;
+                    if (this.lastKey === this.controls[0])
+                        this.currAnim = "playerIdleL";
+                    else if (this.lastKey === this.controls[1])
+                        this.currAnim = "playerIdleU";
+                    else if (this.lastKey === this.controls[2])
+                        this.currAnim = "playerIdleU";
+                    else if (this.lastKey === this.controls[3])
+                        this.currAnim = "playerIdleD";
+                }
+            }
+        } else {
+            // This is dumb, I know but if they're not allowed to lerp then they also need to go back to idle anims
+            if (input.keyPresses.length == 0) {
                 this.tempDestination.x = this.gDestination.x;
                 this.tempDestination.y = this.gDestination.y;
                 if (this.lastKey === this.controls[0])
@@ -47,18 +63,6 @@ class Player extends Obj {
                 else if (this.lastKey === this.controls[3])
                     this.currAnim = "playerIdleD";
             }
-        } else {
-            // This is dumb, I know but if they're not allowed to lerp then they also need to go back to idle anims
-            this.tempDestination.x = this.gDestination.x;
-            this.tempDestination.y = this.gDestination.y;
-            if (this.lastKey === this.controls[0])
-                this.currAnim = "playerIdleL";
-            else if (this.lastKey === this.controls[1])
-                this.currAnim = "playerIdleU";
-            else if (this.lastKey === this.controls[2])
-                this.currAnim = "playerIdleU";
-            else if (this.lastKey === this.controls[3])
-                this.currAnim = "playerIdleD";
         }
 
         if (input.keyPresses.length > 0 && cmpVector2(this.pos, this.sDestination)) {

@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\build\windows80\debug\anycpu\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-03-05T11:01:06.135</Modified>
+      <Modified>2015-03-09T21:57:46.729</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -46,199 +46,199 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\charStatDown.png">
       <PackagePath>www\images\charStatDown.png</PackagePath>
-      <Modified>2015-03-05T11:01:02.974</Modified>
+      <Modified>2015-03-09T21:57:44.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\charStatLeft.png">
       <PackagePath>www\images\charStatLeft.png</PackagePath>
-      <Modified>2015-03-05T11:01:02.977</Modified>
+      <Modified>2015-03-09T21:57:44.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\charStatUp.png">
       <PackagePath>www\images\charStatUp.png</PackagePath>
-      <Modified>2015-03-05T11:01:02.981</Modified>
+      <Modified>2015-03-09T21:57:44.889</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\empty.png">
       <PackagePath>www\images\empty.png</PackagePath>
-      <Modified>2015-03-05T11:01:02.989</Modified>
+      <Modified>2015-03-09T21:57:44.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\filled.png">
       <PackagePath>www\images\filled.png</PackagePath>
-      <Modified>2015-03-05T11:01:02.991</Modified>
+      <Modified>2015-03-09T21:57:44.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\floors.png">
       <PackagePath>www\images\floors.png</PackagePath>
-      <Modified>2015-03-05T11:01:02.992</Modified>
+      <Modified>2015-03-09T21:57:44.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\none.png">
       <PackagePath>www\images\none.png</PackagePath>
-      <Modified>2015-03-05T11:01:02.994</Modified>
+      <Modified>2015-03-09T21:57:44.893</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\npcFollower.png">
       <PackagePath>www\images\npcFollower.png</PackagePath>
-      <Modified>2015-03-05T11:01:02.996</Modified>
+      <Modified>2015-03-09T21:57:44.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\npcStatDown.png">
       <PackagePath>www\images\npcStatDown.png</PackagePath>
-      <Modified>2015-03-05T11:01:03.001</Modified>
+      <Modified>2015-03-09T21:57:44.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\npcStatLeft.png">
       <PackagePath>www\images\npcStatLeft.png</PackagePath>
-      <Modified>2015-03-05T11:01:03.003</Modified>
+      <Modified>2015-03-09T21:57:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\npcStatRight.png">
       <PackagePath>www\images\npcStatRight.png</PackagePath>
-      <Modified>2015-03-05T11:01:03.004</Modified>
+      <Modified>2015-03-09T21:57:44.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\npcStatUp.png">
       <PackagePath>www\images\npcStatUp.png</PackagePath>
-      <Modified>2015-03-05T11:01:03.006</Modified>
+      <Modified>2015-03-09T21:57:44.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\teleporter.png">
       <PackagePath>www\images\teleporter.png</PackagePath>
-      <Modified>2015-03-05T11:01:03.008</Modified>
+      <Modified>2015-03-09T21:57:44.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\walls.png">
       <PackagePath>www\images\walls.png</PackagePath>
-      <Modified>2015-03-05T11:01:03.040</Modified>
+      <Modified>2015-03-09T21:57:44.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.241</Modified>
+      <Modified>2015-03-09T21:57:45.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.718</Modified>
+      <Modified>2015-03-09T21:57:45.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\ArgyleEngine.js">
       <PackagePath>www\js\ArgyleEngine.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.056</Modified>
+      <Modified>2015-03-09T21:57:44.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\game.js">
       <PackagePath>www\js\game.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.736</Modified>
+      <Modified>2015-03-09T21:57:45.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\hud.js">
       <PackagePath>www\js\hud.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.099</Modified>
+      <Modified>2015-03-09T21:57:44.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\NPC.js">
       <PackagePath>www\js\NPC.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.106</Modified>
+      <Modified>2015-03-09T21:57:44.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\player.js">
       <PackagePath>www\js\player.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.111</Modified>
+      <Modified>2015-03-09T21:57:44.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\Teleporter.js">
       <PackagePath>www\js\Teleporter.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.121</Modified>
+      <Modified>2015-03-09T21:57:44.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\lib\astar.js">
       <PackagePath>www\lib\astar.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.738</Modified>
+      <Modified>2015-03-09T21:57:45.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\lib\jquery.js">
       <PackagePath>www\lib\jquery.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.769</Modified>
+      <Modified>2015-03-09T21:57:45.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\scripts\index.js">
       <PackagePath>www\scripts\index.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.194</Modified>
+      <Modified>2015-03-09T21:57:44.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\scripts\platformOverrides.js">
       <PackagePath>www\scripts\platformOverrides.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.221</Modified>
+      <Modified>2015-03-09T21:57:45.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\scripts\winstore-jscompat.js">
       <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
-      <Modified>2015-03-05T11:01:03.222</Modified>
+      <Modified>2015-03-09T21:57:45.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
-      <Modified>2015-03-05T11:01:03.723</Modified>
+      <Modified>2015-03-09T21:57:45.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\images\Thumbs.db">
       <PackagePath>www\images\Thumbs.db</PackagePath>
-      <Modified>2015-03-05T11:01:03.038</Modified>
+      <Modified>2015-03-09T21:57:44.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2015-03-05T11:01:03.042</Modified>
+      <Modified>2015-03-09T21:57:44.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\Project_Readme.html">
       <PackagePath>www\Project_Readme.html</PackagePath>
-      <Modified>2015-03-05T11:01:03.192</Modified>
+      <Modified>2015-03-09T21:57:44.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\ArgyleEngine.js.map">
       <PackagePath>www\js\ArgyleEngine.js.map</PackagePath>
-      <Modified>2015-03-05T11:01:03.060</Modified>
+      <Modified>2015-03-09T21:57:44.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\game.js.map">
       <PackagePath>www\js\game.js.map</PackagePath>
-      <Modified>2015-03-05T11:01:03.089</Modified>
+      <Modified>2015-03-09T21:57:44.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\hud.js.map">
       <PackagePath>www\js\hud.js.map</PackagePath>
-      <Modified>2015-03-05T11:01:03.103</Modified>
+      <Modified>2015-03-09T21:57:44.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\NPC.js.map">
       <PackagePath>www\js\NPC.js.map</PackagePath>
-      <Modified>2015-03-05T11:01:03.108</Modified>
+      <Modified>2015-03-09T21:57:44.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\player.js.map">
       <PackagePath>www\js\player.js.map</PackagePath>
-      <Modified>2015-03-05T11:01:03.113</Modified>
+      <Modified>2015-03-09T21:57:44.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\Teleporter.js.map">
       <PackagePath>www\js\Teleporter.js.map</PackagePath>
-      <Modified>2015-03-05T11:01:03.122</Modified>
+      <Modified>2015-03-09T21:57:44.952</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\ArgyleEngine.ts">
       <PackagePath>www\js\ArgyleEngine.ts</PackagePath>
-      <Modified>2015-03-05T11:01:03.071</Modified>
+      <Modified>2015-03-09T21:57:44.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\game.ts">
       <PackagePath>www\js\game.ts</PackagePath>
-      <Modified>2015-03-05T11:01:03.095</Modified>
+      <Modified>2015-03-09T21:57:44.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\hud.ts">
       <PackagePath>www\js\hud.ts</PackagePath>
-      <Modified>2015-03-05T11:01:03.104</Modified>
+      <Modified>2015-03-09T21:57:44.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\NPC.ts">
       <PackagePath>www\js\NPC.ts</PackagePath>
-      <Modified>2015-03-05T11:01:03.109</Modified>
+      <Modified>2015-03-09T21:57:44.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\player.ts">
       <PackagePath>www\js\player.ts</PackagePath>
-      <Modified>2015-03-05T11:01:03.119</Modified>
+      <Modified>2015-03-09T21:57:44.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\js\Teleporter.ts">
       <PackagePath>www\js\Teleporter.ts</PackagePath>
-      <Modified>2015-03-05T11:01:03.124</Modified>
+      <Modified>2015-03-09T21:57:44.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\lib\astar.ts">
       <PackagePath>www\lib\astar.ts</PackagePath>
-      <Modified>2015-03-05T11:01:03.137</Modified>
+      <Modified>2015-03-09T21:57:44.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\lib\jquery.d.ts">
       <PackagePath>www\lib\jquery.d.ts</PackagePath>
-      <Modified>2015-03-05T11:01:03.150</Modified>
+      <Modified>2015-03-09T21:57:44.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\sounds\SneakySnake Theme.wav">
       <PackagePath>www\sounds\SneakySnake Theme.wav</PackagePath>
-      <Modified>2015-03-05T11:01:03.210</Modified>
+      <Modified>2015-03-09T21:57:45.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\www\sounds\walking-1.mp3">
       <PackagePath>www\sounds\walking-1.mp3</PackagePath>
-      <Modified>2015-03-05T11:01:03.217</Modified>
+      <Modified>2015-03-09T21:57:45.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
-      <Modified>2015-03-05T11:01:03.701</Modified>
+      <Modified>2015-03-09T21:57:45.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Damian\Documents\codeday2015\snakey\ohdh\bld\Debug\platforms\windows\build\windows80\debug\anycpu\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-03-05T11:01:05.974</Modified>
+      <Modified>2015-03-09T21:57:46.629</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

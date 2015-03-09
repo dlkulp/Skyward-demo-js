@@ -6,7 +6,7 @@ class Player extends Obj {
     public tempDestination: Vector2;
     public speed: number = 2.5;
     public bCanLerp: boolean;
-    public previousLoc: any;
+    public previousLoc: Array<Vector2>;
     public following: Array<NPC>;
     private lastKey: string;
     public health: number = 1;
